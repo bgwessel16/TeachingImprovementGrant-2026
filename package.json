@@ -1,0 +1,21 @@
+{
+  "name": "teachingimprovementgrant-2026",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build ./slides.md",
+    "dev": "slidev ./slides.md --open",
+    "export": "slidev export ./slides.md",
+    "push": "node utils/push_repo.js"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.16.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "latest",
+    "approve-builds": "^1.0.0",
+    "vue": "^3.5.35"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.60.0"
+  }
+}

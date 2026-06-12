@@ -89,16 +89,24 @@ Assessment in the age of AI
 
 ---
 transition: fade-out
+layout: two-cols
 ---
 
 # Modern AI for Intelligent Robotics
 ##
 
+::left::
 4GB models can run on off the shelf hardware (Microsoft Phi-4.5)
 
 These models lack factual knowledge (height of Taipei 101)
 
-Can still reason (Find the outlier in 1,2,3,7,5)
+Can still reason, logic, etc.
+
+Prompt: Watch the IMU sensor and trigger emergency stop if it is unusual.
+
+::right::
+
+<img src="./assets/scrolling_line_with_spike.gif" alt="Group Project" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 350px; object-fit: contain; width: auto;" />
 ---
 transition: fade-out
 ---

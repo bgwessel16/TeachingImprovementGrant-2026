@@ -1,7 +1,8 @@
 ---
 # try also 'default' to start simple
-theme: default
- # basically the text
+theme:
+  default
+  # basically the text
 sans: Robot
 # use with `font-serif` css class from UnoCSS
 serif: Robot Slab
@@ -23,7 +24,7 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: fade-out
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
 # duration of the presentation
@@ -154,8 +155,59 @@ Students use LLMs extensively during projects and assignments
 - Robotics in Education (RiE) 2026, Wolfenbuettel, Germany
 
 Final Exam: 
-  - Network Architecture Search Project. Implement algorithms from current research
+  - Project. Implement algorithms from 3 research papers
   - Oral exam - based on their implementation
+---
+transition: fade-out
+layout: two-cols
+---
+# Modern AI and Group Projects
+##
+
+::left::
+Integral part of projects. Working with peers.
+
+Larger scale project
+
+Enhances social skills
+
+Friction - Language, time zone, working styles
+
+::right::
+<img src="./assets/ai1.png" alt="Group Project" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 350px; object-fit: contain; width: auto;" />
+
+---
+transition: fade-out
+layout: two-cols
+---
+# Modern AI and Group Projects
+##
+
+::left::
+
+In 2026 - students use AI
+
+One or more agents
+
+
+::right::
+<img src="./assets/ai2.png" alt="Group Project" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 350px; object-fit: contain; width: auto;" />
+---
+transition: fade-out
+layout: two-cols
+---
+# Modern AI and Group Projects
+##
+
+::left::
+
+Easy to replace team members
+
+Destroys diversity, equity, and inclusion
+
+::right::
+<img src="./assets/ai3.png" alt="Group Project" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); height: 350px; object-fit: contain; width: auto;" />
+
 ---
 transition: fade-out
 ---
